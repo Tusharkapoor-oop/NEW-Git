@@ -286,6 +286,19 @@ a {
     transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
+.project-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+.project-desc {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-family: var(--font-sans);
+}
+
 /* Section 2: Tech Stack */
 .tech-stack {
     display: flex;
